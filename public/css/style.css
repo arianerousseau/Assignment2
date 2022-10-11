@@ -1,31 +1,18 @@
 *{
+    align-self: auto;
+    text-align: center;
     background-color: pink;
 }
 
-.results{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
-    height: 400px;
-    width: 300px;
+.main{
+    align-content: center;
+    align-self: center;
 }
-
-.result{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.result image{
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-}
-
-.buttons{
-    display: flex;
-
+.para{
+    align-self: auto;
+    display: block;
+    border-style: solid;
+    border-color: black;
 }
 
 button:active{

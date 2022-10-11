@@ -16,10 +16,6 @@ function factCat(){
             if (xhttp.status === 200 && xhttp.readyState === 4){
                 var response = JSON.parse(xhttp.responseText);
                 console.log(response);
-                var toPrint = "";
-                for(i=0; i<value; i++){
-                    toPrint += "\n";
-                }
                 document.getElementById("paragraphe").innerHTML = response;
         }else {
                 console.error("Bad request");
