@@ -2,6 +2,36 @@
     background-color: pink;
 }
 
-#image{
-    display: none;
+.results{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    height: 400px;
+    width: 300px;
+}
+
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.result image{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.buttons{
+    display: flex;
+
+}
+
+button:active{
+    transform: scale(0.98);
+}
+
+button:focus{
+    outline: none;
 }
